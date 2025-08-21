@@ -15,7 +15,6 @@ jobs:
           cache: 'npm'
       
       - run: npm ci
-      
       - run: npm test
       
       - uses: hexlet-components/hello-from-hexlet-action@release
